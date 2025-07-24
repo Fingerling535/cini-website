@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",                          
-    "module": "commonjs",                     
-    "rootDir": "back‑end/src",
-    "outDir": "back‑end/dist",                 
-    "strict": true,                           
-    "esModuleInterop": true,                  
-    "forceConsistentCasingInFileNames": true  
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true
   },
-  "include": ["back‑end/src/**/*"],
-  "exclude": ["node_modules", "back‑end/dist"]
+  "include": ["src/**/*"]
 }
