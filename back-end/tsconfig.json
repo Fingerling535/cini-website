@@ -6,7 +6,12 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "esModuleInterop": true,
-    "strict": true
+
+    // Aşağıdakiler TypeORM + üretim derlemesi için kritik:
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true
   },
   "include": ["src/**/*"]
 }
