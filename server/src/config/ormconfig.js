@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const dotenv_1 = __importDefault(require("dotenv"));
-const Product_1 = require("../models/Product"); // eğer dosyanız products.ts ise
+const Product_1 = require("../../back-end/dist/models/Product"); // eğer dosyanız products.ts ise
 // veya import { Product } from '../models/Product'; // eğer dosyanızı Product.ts yaptınız
 dotenv_1.default.config();
 const ormconfig = {
