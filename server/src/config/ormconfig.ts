@@ -1,7 +1,7 @@
 // src/config/ormconfig.ts
 import { DataSourceOptions } from 'typeorm';
 import dotenv from 'dotenv';
-import { Product } from '../src/models/Product';   // eğer dosyanız products.ts ise
+import { Product } from '../models/Product';   // eğer dosyanız products.ts ise
 // veya import { Product } from '../models/Product'; // eğer dosyanızı Product.ts yaptınız
 
 dotenv.config();
