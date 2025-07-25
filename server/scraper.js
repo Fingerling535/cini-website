@@ -1,4 +1,4 @@
-import axios from 'axios';
+const axios = require ('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
@@ -36,7 +36,7 @@ axios.get(shopierUrl, {
   });
 
     // JSON dosyasına yazma
-    fs.writeFileSync('cftctileceramic/products.json', JSON.stringify(products, null, 2) + '\n', 'utf-8');
+    fs.writeFileSync('client/public/products.json', JSON.stringify(products, null, 2) + '\n', 'utf-8');
   });
   console.log('✅ JSON başarıyla kaydedildi!');
 
