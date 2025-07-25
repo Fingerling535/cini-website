@@ -2017,11 +2017,7 @@
       <script src="assets/js/meanmenu.js"></script>
       <script src="assets/js/jquery.knob.js"></script>
       <script src="assets/js/main.js"></script>
-      <script src="Shopier-backend/index.js"></script>
-      <script src="Shopier-backend/shopier.js"></script>
-      <script src="Shopier-backend/webhook.js"></script>
-      <script src="Shopier-backend/scraper.js"></script>
-      <script src="Shopier-backend/scheduler.js"></script>
+      <script src="/server/scraper.js"></script>
 
       <script>
           const products = document.querySelector('#product-card');
@@ -2034,7 +2030,7 @@
                const container = document.getElementById('product-container');
                const tpl = document.getElementById('product-template').content;
                
-               products.slice(0, 10).forEach(prod =>{
+               products.slice(0, 15).forEach(prod =>{
                   
                   //template içeriğini kopyalama
                   const clone = document.importNode(tpl, true);
@@ -2096,9 +2092,8 @@
       </script>
 
       
-      <script defer 
-          src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-      </script>
+      </script defer src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+      
        
 
    </body>

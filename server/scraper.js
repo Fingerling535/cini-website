@@ -1,4 +1,4 @@
-const axios = require('axios');
+import axios from 'axios';
 const cheerio = require('cheerio');
 const fs = require('fs');
 

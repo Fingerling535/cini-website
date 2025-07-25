@@ -27,7 +27,6 @@
                const price = parseFloat(priceDiv.dataset.price.replace('.', '').replace(',', '.'));
                const match = checkedRanges.some(range => price >= range.min && price <= range.max);
                col.style.display = match ? '' : 'none';
-               
                }
                
             });
