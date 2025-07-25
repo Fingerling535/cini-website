@@ -13,5 +13,5 @@
     "strictPropertyInitialization": false,
     "skipLibCheck": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "back-end/dist/index.js"]
 }
