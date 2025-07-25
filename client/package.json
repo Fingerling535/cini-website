@@ -2,7 +2,7 @@
   "scripts": {
     
     "heroku-postbuild": "cd back-end && npm install && npm run build",
-    "start": "node back-end/dist/index.js"
+    "start": "node server/src/index.js"
   },
   "engines": {
     "node": "22.x"
