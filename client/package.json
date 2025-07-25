@@ -1,10 +1,7 @@
 {
   "scripts": {
-    
-    "heroku-postbuild": "cd back-end && npm install && npm run build",
-    "start": "node server/src/index.js"
-  },
-  "engines": {
-    "node": "22.x"
+    "start": "node server/dist/index.js",
+    "start:heroku": "npm run heroku-postbuild && npm run start",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   }
 }
